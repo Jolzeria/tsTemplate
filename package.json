@@ -1,0 +1,27 @@
+{
+  "scripts": {
+    "build": "node scripts/build.js",
+    "build:css": "node scripts/css.js",
+    "style:prettier": "prettier --write \"src/**/*.ts\""
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.17",
+    "@babel/core": "^7.12.17",
+    "@babel/preset-env": "^7.12.17",
+    "@types/node": "^14.14.32",
+    "babel-preset-es2015-rollup": "^3.0.0",
+    "node-sass": "^5.0.0",
+    "prettier": "^2.2.1",
+    "rollup": "^2.39.0",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-typescript": "^1.0.1",
+    "tslib": "^2.1.0",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^4.1.5",
+    "uglify-js": "^3.12.8"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1"
+  }
+}

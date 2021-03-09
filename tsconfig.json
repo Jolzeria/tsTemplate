@@ -1,0 +1,10 @@
+{
+	"compilerOptions": {
+		"noEmit": true,
+		"noEmitHelpers": true,
+		"importHelpers": true,
+		"target": "es3",
+		"types": ["./src/types"],
+		"lib": ["dom", "es7"]
+	}
+}

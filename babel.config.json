@@ -1,0 +1,16 @@
+{
+	"presets": [
+		[
+			"@babel/env",
+			{
+				"targets": {
+					"browsers": ["last 2 versions", "ie >= 7"]
+				},
+				"include": ["es6.promise"],
+				"modules": false,
+				"useBuiltIns": "usage"
+			}
+		]
+	],
+	"plugins": ["external-helpers"]
+}
